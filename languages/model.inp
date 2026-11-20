@@ -1,0 +1,4 @@
+TITLE: two groups;
+DATA: FILE IS ../data/small.dat;
+VARIABLE: NAMES ARE id group score;
+MODEL: score ON group;

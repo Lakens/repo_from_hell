@@ -1,0 +1,8 @@
+---
+title: Fails
+output: html_document
+---
+
+```{r}
+stop('this chunk fails')
+```

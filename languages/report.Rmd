@@ -1,0 +1,11 @@
+---
+title: Report
+output: html_document
+---
+
+```{r}
+d <- read.csv("../data/small.csv")
+t.test(score ~ group, data = d)
+```
+
+The mean was `r mean(d$score)`.

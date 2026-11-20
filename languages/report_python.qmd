@@ -1,0 +1,10 @@
+---
+title: Python report
+jupyter: python3
+---
+
+```{python}
+import pandas as pd
+d = pd.read_csv('../data/small.csv')
+d.describe()
+```

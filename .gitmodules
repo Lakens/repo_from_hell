@@ -1,0 +1,3 @@
+[submodule "vendor/download-test"]
+	path = vendor/download-test
+	url = https://github.com/Lakens/metacheck-download-test.git
